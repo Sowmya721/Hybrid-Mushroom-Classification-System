@@ -1,5 +1,6 @@
-<img width="1896" height="704" alt="image_original" src="https://github.com/user-attachments/assets/67e13594-f690-4ab6-a06e-063eb64eb417" /># Hybrid-Mushroom-Classification-System
+# Hybrid-Mushroom-Classification-System
 A production-ready deep learning system for multi-class mushroom species identification, combining transfer learning (ResNet50) with traditional computer vision techniques to achieve 95%+ accuracy.
+
 🎯 Project Overview
 This project implements a hybrid machine learning pipeline that fuses deep features from pre-trained ResNet50 with handcrafted computer vision features (GLCM, HOG, LBP) for robust mushroom species classification. The system includes comprehensive image preprocessing, automated feature extraction, and ensemble learning with real-time inference capabilities.
 Key Features
@@ -9,6 +10,7 @@ Key Features
 ✅ Advanced Image Preprocessing with background removal and augmentation
 ✅ Production Deployment via Gradio web application
 ✅ Real-time Inference with confidence scoring
+
 
 🏗️ Architecture
 Input Image
@@ -37,9 +39,8 @@ Input Image
 [Ensemble Classifier]
     ├─ Random Forest
     ├─ Support Vector Machine
-    └─ Logistic Regression
-    ↓
-Prediction + Confidence Score
+    └─ Logistic Regression (Prediction + Confidence Score)
+    
 🚀 Quick Start
 Prerequisites
 bashPython 3.8+
