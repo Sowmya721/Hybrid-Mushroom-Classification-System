@@ -77,7 +77,6 @@ print(f"Species: {prediction}, Confidence: {confidence:.2%}")
 
 
 📊 Performance Metrics
-ModelAccuracyPrecisionRecallF1-ScoreRandom Forest93.7%0.940.930.93SVM92.4%0.920.920.92Logistic Regression89.8%0.900.890.89Ensemble (Voting)95.3%0.950.950.95
 Training Results
 
 Dataset Size: 175 samples across 4 species
